@@ -1,0 +1,110 @@
+body {
+  	background-size: cover;
+  	font-family: Arial, "Courier New", Helvecita, sans-serif;
+}
+.bodypic {
+	background-image: url('central_power_station-585x445.jfif');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+}
+header {
+	background-color: #666;
+  	padding: 30px;
+  	text-align: center;
+  	font-size: 35px;
+  	color: white;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+  padding: 1px;
+  padding-right: 5px;
+  margin-left: 1px;
+}
+h1 {
+	color: #000000;
+	font-size: 32px
+}
+.heading1 {
+	color: #000000;
+}
+h2 {
+	color: ##A64636;
+	font-size: 20px;
+}
+.heading2 {
+	color: #A64636;
+}
+
+h3 {
+	color: ##703121;
+	font-size: 18px;
+	font-style: italic;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+div {
+	width: 150px;
+	height: 50px;
+	border: 2px;
+	display: inline-block;
+	margin: 20px;
+	vertical-align: text-top;
+	text-align: center;
+}
+
+hr {
+  width: 200px;
+}
+
+p {
+	color: #000000;
+  font-size: 22px;
+}
+#slogan {
+	color: #A64636;
+	font-size: 18px;
+	text-align: center;
+}
+#imgbig {
+	width: 900px;
+	position: center;
+}
+.firstheader{
+	text-align: center;
+	color: #000000;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.indent {
+	text-indent: 1px;
+	padding-right: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+ul {
+	list-style-type: none;
+	text-align: left;
+}
