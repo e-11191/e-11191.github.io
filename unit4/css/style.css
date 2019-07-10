@@ -1,0 +1,395 @@
+ @import url('https://fonts.googleapis.com/css?family=Bahianita|Literata&display=swap');
+
+
+/* FONTS */
+
+.fonts-brand .site-header {
+	font-family: Quadron-Regular,"Open Sans",Arial,Helvecita,Verdana,sans-serif;
+}
+h2 {
+	color: #000;
+	font-size: 20px;
+}
+.heading2 {
+	color: #A64636;
+	font-size: 20px;
+}
+h3 {
+	color: ##703121;
+	font-size: 18px;
+	font-style: italic;
+}
+.embold {
+	 font-family: Courier New;
+	 font-style: italic;
+	 font-size: 32px;
+}
+.fonts-brand .site-header__site-name {
+    font-family: Quadon-Light,"Open Sans",Arial,Helvetica,Verdana,sans-serif;
+
+}
+.article1 {
+	font-family: 'Literata', serif;
+}
+:root {
+	--cos-theme-site-header: #00704a;
+}
+
+
+/* ELEMENT SELECTORS */
+
+body {
+  	background-size: cover;
+  	font-family: Arial, "Courier New", Helvecita, sans-serif, Literata, serif;
+}
+div {
+	display: block;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+  padding: 1px;
+  padding-right: 5px;
+  margin-left: 1px;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding-left: 10px;
+  float: right;
+}
+a {
+text-decoration: none;
+} 
+ul li {
+	list-style-type: disc;
+	list-style-type: none;
+	/*margin-block-start: 1em
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;*/
+}
+
+
+/* MISC ADJUSTERS */
+
+.indent {
+	text-indent: 1px;
+	padding-right: 10px;
+}
+.unindent {
+	text-indent: -40px;
+	padding-right: -12px;
+}
+.indent2 {
+	float: left;
+	padding-left: 2px;
+}
+
+
+/*  UO COPY-PASTE FOR PAGE TOP DATA */
+
+
+.uoheader__logo-containter {
+	 float: left;
+	 max-width: 180px;
+	 margin: 0 0 0 0;
+}
+.floatuo {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	float: left;
+}
+.uoregon-homepage .cta-links {
+	font-size: 1em;
+	line-height: 2em;
+	float: left;
+}
+.site-header {
+    box-sizing: border-box;
+    display: table;
+
+    /*position: relative;
+    min-height: 126px;
+    padding-top: 30px;
+    padding-bottom: 30px;*/
+    width: 100%;
+    /*background-color: #007049;*/
+    background-color: var(--cos-theme-site-header);
+}
+.site-header__left, .site-header__center, .site-header__right {
+	display: block;
+	vertical-align: top;
+	text-decoration: none;
+}
+.site-header__name-and-slogan {
+    float: left;
+    text-decoration: none;
+}
+.site-header__site-link {
+    color: #ffd200 !important;
+    /*color: var(--cos-theme-title);*/
+    text-decoration: none;
+    padding-left: 20px;
+}
+.site-header__main-content {
+	box-sizing: border-box;
+    display: table;
+    position: relative;
+    min-height: 126px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+	background-color: #00704a;
+}
+.site-header_left, site-header-center, .site-header_right {
+	vertical-align: top;
+}
+.region-header, .region-search {
+	float: right;
+}
+.utility-links {
+	box-sizing: border-box;
+	display: inline;
+	position: absolute;
+	margin: 2px auto auto auto;
+	/*padding: 0px 0px 0px 20px !important;*/
+	width: 100%;
+	max-width: 1400px;*/
+	font-size: 13px;
+	line-height: 26px;
+	top: 0;
+	right: 0;
+	left: 0;
+	text-align: right;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+
+/* following used/created by Eric for CPFM data */
+
+.cpfm_pad {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.navbar1 {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	overflow: auto;
+	text-decoration: none;
+}
+.navbar1 a {
+	float: left;
+	padding: 5px;
+	color: #000;
+	text-decoration: none;
+	width: 15%;
+	text-align: center;
+	border: 1px solid #555;
+}
+.navbar1 a:hover {
+  background-color: #2f61c4;
+}
+.navbar2 {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	overflow: auto;
+	position: absolute;
+	padding: 0px;
+}
+.navbar2 a {
+	float: left;
+	padding-left: 5px;
+	color: #000;
+	width: 18%;
+	text-align: center;
+	text-decoration: none;
+}
+.navdecor {
+	text-decoration: none;
+}
+.navigation1 {
+  box-sizing: border-box;
+  display: block;
+  width: 20%;
+  border: none;
+  float: left;
+}
+.navigation2 {
+  box-sizing: border-box;
+  width: 80%;
+  border: 2px #5d6d7e;
+  float: left;
+}
+.uebox {
+	box-sizing: border-box;
+	display: block;
+  	width: 100%;
+  	border: none;
+  	float: center;
+  	padding-bottom: 20px;	
+}
+.embox {
+	box-sizing: border-box;
+	display: block;
+  	width: 100%;
+  	border: none;
+  	float: center;
+  	padding-bottom: 20px;
+  	text-align: center;	
+}
+.bodypic {
+	background-image: url('central_power_station-585x445.jfif');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 25%;
+  padding-top: 12px;
+
+}
+.footer1 {
+	box-sizing: border-box;
+	display: block;
+  	width: 100%;
+  	border: none;
+  	float: center;
+  	padding-bottom: 20px;
+  	text-align: center;	
+  	background-color: #777;
+  	padding: 10px;
+  	color: white;
+}
+
+
+#header {
+	background-image: linear-gradient(#06422a, #0a6142);
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	min-height: 0;
+}
+#slogan {
+	color: #A64636;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+
+/* used in Unit3, some incorporated into Unit4
+
+header {
+	background-color: #666;
+  	padding: 30px;
+  	text-align: center;
+  	font-size: 35px;
+  	color: white;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+Container for flexboxes 
+section {
+  display: -webkit-flex;
+  display: flex;
+  padding: 1px;
+  padding-right: 5px;
+  margin-left: 1px;
+}
+h1 {
+	color: #000000;
+	font-size: 32px
+}
+.heading1 {
+	color: #000000;
+}
+h2 {
+	color: ##A64636;
+	font-size: 20px;
+}
+.heading2 {
+	color: #A64636;
+	font-size: 20px;
+}
+
+h3 {
+	color: ##703121;
+	font-size: 18px;
+	font-style: italic;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+div {
+	width: 150px;
+	height: 50px;
+	border: 2px;
+	display: inline-block;
+	margin: 20px;
+	vertical-align: text-top;
+	text-align: center;
+}
+
+hr {
+  width: 200px;
+}
+
+p {
+	color: #000000;
+  font-size: 22px;
+}
+
+}
+#imgbig {
+	width: 900px;
+	position: center;
+}
+.firstheader{
+	text-align: center;
+	color: #000000;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.indent {
+	text-indent: 1px;
+	padding-right: 10px;
+}
+
+/* Style the footer 
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+ul {
+	list-style-type: none;
+	text-align: left;
+}
+>
