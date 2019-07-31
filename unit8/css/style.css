@@ -1,0 +1,181 @@
+* {max-width: 100%; padding: 0; margin: 0;}
+body {
+	font-family: 'Literata', serif,'Exo', sans-serif;
+	font-size: 16px;
+}
+
+p {
+	font-family: Times, "Times New Roman", "serif";
+	font-size: 1em;
+}
+
+a {
+	color: #fff;
+	padding-left: 1em;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	padding: 0.5em;
+}
+li {
+	text-align: left;
+	text-decoration: none;
+}
+h1 {
+	font-family: 'Literata';
+	font-style: italic;
+	font-size: 2.5em;
+	padding: .5em 0;
+	color: #ffd200;
+}
+h3 {
+	text-align: left;
+	padding-left: 1em;
+}
+h4 {
+	font-family: 'Crimson Text', serif;
+	font-size: 1.3em;
+	font-weight: normal;
+	padding-left: 3.1em;
+}
+h5 {
+	font-family: 'Crimson Text', serif;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.2em;
+	padding-left: 1em;
+}
+
+.wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+/* UO Header */
+
+.siteheader_logo {
+	padding: 0.2em 0;
+	float: left;
+}
+.uolinks {
+	display: inline;
+	line-height: 3em;
+	float: right;
+}
+.uolinks a {
+	font-size: 1.2em;
+	color: white;
+}
+
+/* Div Background */
+
+.darkgreen {
+	  background-color: #104735;
+}
+.lightgreen {
+	background-color: #007049;
+}
+.lightbrown {
+	background-color: #f2f5dd;
+}
+
+/* CPFM Header Nav */
+
+.nav1 {
+	display: inline;
+	line-height: 3em;
+	text-align: center;
+	text-decoration: none;
+}
+.nav1 a {	
+	font-size: 1em;
+	padding: .1em;
+	color: #104735;
+	float: left;
+	width: 16.3%;
+}
+.nav1 a:hover {
+	background-color: #9D9D9D;
+}
+
+/* CPFM Links and Article */
+
+.uebody {
+	padding-top: 3em;
+}
+.uenav2 {
+	width: 23%;
+	background-color: #f2f5dd;
+	float: left;
+	
+}
+.uenav2 a {
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #104735;
+	text-decoration: none;
+	padding-left: 1em;
+}
+#article {
+	width: 75%;
+	float: right;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	padding: 2em 0;
+}
+
+/* Footer */
+footer {
+	width: 100%;
+	background-color: #2F2F2F;
+	padding-bottom: 3em;
+}
+.footernav {
+	display: inline-block;
+	width:22%;
+	padding-top: 3em;
+	color: white;
+	float: left;
+}
+.footernav a {
+	line-height: 2em;
+	font-size: .8em;
+	padding-left: 4.3em; 
+}
+.navborder { 
+    border-left:solid 1px #fff;
+}
+.footernavlast {
+	display: inline-block;
+	width: 32%;
+	padding: 3em 0 0 1em;
+	color: white;
+	float: left;
+}
+.footernavlast a {
+	padding-left: 0;
+}
+
+
+@media only screen and (max-width: 960px) {
+	.uolinks .nav1 .uenav2 {
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.uolinks {
+		float: none;
+		width: auto;
+	}
+}
