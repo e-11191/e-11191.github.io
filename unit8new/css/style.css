@@ -1,0 +1,229 @@
+* {max-width: 100%; padding: 0; margin: 0;}
+body {
+	font-family: 'Literata', serif,'Exo', sans-serif;
+	font-size: 16px;
+}
+
+p {
+	font-family: Times, "Times New Roman", "serif";
+	font-size: 1em;
+}
+
+a {
+	color: #fff;
+	padding-left: 1em;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	padding: 0.5em;
+}
+li {
+	text-align: left;
+	text-decoration: none;
+}
+h1 {
+	font-family: 'Literata';
+	font-style: italic;
+	font-size: 2.5em;
+	padding: .5em 0;
+	color: #ffd200;
+}
+h3 {
+	text-align: left;
+	padding-left: 1em;
+}
+h4 {
+	font-family: 'Crimson Text', serif;
+	font-size: 1.3em;
+	font-weight: normal;
+	padding-left: 1em;
+}
+h5 {
+	font-family: 'Crimson Text', serif;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.2em;
+	padding-left: 1em;
+}
+
+.wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+/* UO Header */
+
+.siteheader_logo {
+	padding: 0.2em 0;
+	float: left;
+}
+.uolinks {
+	display: inline;
+	float: right;
+	padding-top: .5em;
+}
+.uolinks a {
+	font-size: 1.2em;
+	color: white;
+	padding: 1em;
+}
+
+/* Div Background */
+
+.darkgreen {
+	  background-color: #104735;
+}
+.lightgreen {
+	background-color: #007049;
+}
+.lightbrown {
+	background-color: #f2f5dd;
+}
+
+/* CPFM Header Nav */
+
+.nav1 {
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+	padding: 1em;
+	width: 100%;
+}
+.nav1 a {	
+	font-size: 1em;
+	padding: 1em 0;
+	color: #104735;
+	float: left;
+	width: 16%;
+}
+.nav1 a:hover {
+	background-color: #9D9D9D;
+}
+
+/* CPFM Links and Article */
+
+.uebody {
+	padding-top: 3em;
+	margin-bottom: 3em;
+}
+.uenav2 {
+	width: 22.5%;
+	background-color: #f2f5dd;
+	float: left;
+	padding: 1em;	
+}
+.uenav2 a {
+	font-size: 1em;
+	color: #104735;
+	line-height: 1.75em;
+	text-decoration: none;
+	padding: 1em .75em;
+}
+.uenav2 a:hover {
+	background-color: #87A884;
+}
+#article {
+	width: 72.5%;
+	float: right;
+}
+.pindent {
+	text-indent: 2em;
+}
+#imgem {
+	width: 475px;
+	max-width: 100%;
+	padding: 2em 0;
+	margin: 0 auto;
+}
+
+/* Footer */
+footer {
+	width: auto%;
+	background-color: #2F2F2F;
+}
+.footernav {
+	display: inline-block;
+	width:17.5%;
+	padding: 1.5em;
+	color: white;
+	float: left;	
+}
+.footernav a {
+	line-height: 2em;
+	font-size: .85rem;
+	padding: 1em; 
+}
+.footernav a:hover {
+	background-color: #C4BEBE;
+}
+
+.footernavlast {
+	display: inline-block;
+	width: 32%;
+	padding: 1em 0 0 1em;
+	color: white;
+	float: left;
+}
+.footernavlast a {
+	padding-left: 0;
+}
+
+
+@media only screen and (max-width: 1475px) {
+	.uolinks, .nav1, .uenav2, .footernav {
+		font-size: 11px;
+	}
+	.uolinks a {
+		padding: .5em;
+		width: 100%;
+	}
+	.uenav2 a {
+		padding: .5em;
+	}
+	.footernav {	
+		float: none;
+		width: auto;
+	}
+	.footernav a {
+		font-size: .65rem;
+		padding: .5em;
+	}
+	.footernavlast p {
+		font-size: .65rem;
+	}
+}
+@media only screen and (max-width: 915px) {
+	.uolinks {
+		float: none;
+		width: auto;
+	}
+	#article {
+		width: 60%;
+		padding-left: 1em;
+	}
+	h1 {
+		font-size: 16px;
+	}
+	.nav1 {
+		display: block;
+		float: none;
+		max-width: 100%;	
+	}
+	.uenav2 {
+		width: auto;
+	}
+}
+@media only screen and (max-width: 660px) {
+	#article {
+		display: none;
+	}
+}
